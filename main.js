@@ -65,7 +65,8 @@ function showData() {
       cloudyInfo.innerHTML = cloudyValue + "%";
       humidityInfo.innerHTML = humidityValue + "%";
       windInfo.innerHTML = windSpeedValue + "km/h";
-    });
+    })
+    .catch(err => alert("Wrong city name!"));
 }
 buttonSearch.addEventListener("click", () => {
   showData();

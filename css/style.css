@@ -111,9 +111,12 @@ body {
 }
 .weather__info--icon{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .weather__info__status{
     position: absolute;
-    left: 20%;
-    top: 50%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%, -50%);
 }
