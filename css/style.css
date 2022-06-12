@@ -38,11 +38,12 @@ body {
     -webkit-backdrop-filter: blur(15px); 
     backdrop-filter: blur(15px); /* Chrome and Opera */
     padding: 0 32px;
+    position: relative;
 }
 
 .sidebar .sidebar__search{
     margin-top: 30px;
-    position: relative;
+    
 }
 .sidebar__search__input{
     outline: none;
@@ -89,4 +90,30 @@ body {
     left: 15%;
     bottom: 15%;
     display: flex;
+}
+.weather .weather__info{
+    margin: 0 10px;
+    align-self: center;
+    
+}
+.weather__info__temp{
+    font-size: 96px;
+    font-weight: 700;
+}
+.weather__info__city{
+    font-size: 48px;
+}
+.weather__info__icon{
+    font-size:48px;
+}
+.weather__info__status,.weather__info__date{
+    font-size: 20px;
+}
+.weather__info--icon{
+    position: relative;
+}
+.weather__info__status{
+    position: absolute;
+    left: 20%;
+    top: 50%;
 }
