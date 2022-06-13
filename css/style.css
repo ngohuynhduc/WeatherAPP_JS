@@ -3,6 +3,7 @@
 }
 body {
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../assets/Img/pexels-mohamed-almari-1485894.jpg);
+    background-image: url(../assets/Img/cloudy-bg.jpg);
     background-size: cover;
     display: flex;
 }
@@ -78,17 +79,20 @@ body {
     padding: 30px 0;
     border-bottom: 1px solid rgb(184, 184, 184);;
 }
-.sidebar__details__details{
+.sidebar__details__detail{
     display: flex;
     justify-content: space-between;
+}
+.sidebar__details__detail > p {
+    font-weight: 300;
 }
 .weather-container{
     position: relative;
 }
 .weather{
     position:absolute;
-    left: 15%;
-    bottom: 15%;
+    left: 10%;
+    bottom: 10%;
     display: flex;
 }
 .weather .weather__info{
@@ -97,17 +101,17 @@ body {
     
 }
 .weather__info__temp{
-    font-size: 96px;
-    font-weight: 700;
+    font-size: 72px;
+    font-weight: 500;
 }
 .weather__info__city{
-    font-size: 48px;
+    font-size: 36px;
 }
 .weather__info__icon{
     font-size:48px;
 }
 .weather__info__status,.weather__info__date{
-    font-size: 20px;
+    font-size: 16px;
 }
 .weather__info--icon{
     position: relative;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="background"></div>
     <div class="container">
@@ -16,31 +21,32 @@
             <div class="weather">
                 <div class="weather__info">
                     <div class="weather__info__temp" id="temp">
-                        
+
                     </div>
                 </div>
                 <div class="weather__info weather__info--block">
                     <div class="weather__info__city" id="city">
-                        London
+                        
                     </div>
                     <div class="weather__info__date" id="date-time">
-                        06-09-Monday, 9 Sep '19
+                        
                     </div>
                 </div>
                 <div class="weather__info weather__info--icon">
                     <div class="weather__info__icon">
                         <img src="http://openweathermap.org/img/wn/10d@2x.png" id="status-icon" alt="status-icon">
                     </div>
-                    <div class="weather__info__status" >
-                        <p id="status">Sunny</p>
+                    <div class="weather__info__status">
+                        <p id="status"></p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
         <div class="sidebar">
             <div class="sidebar__search">
-                <input type="text" name="search-bar" id="search-bar" placeholder="Another location" class="sidebar__search__input" autocomplete="off">
+                <input type="text" name="search-bar" id="search-bar" placeholder="Another location"
+                    class="sidebar__search__input" autocomplete="off">
                 <button type="submit" class="sidebar__search__btn">
                     <i class="bi bi-search"></i>
                 </button>
@@ -55,17 +61,17 @@
                 <div class="sidebar__details__title">
                     <p>Weather details</p>
                 </div>
-                <div class="sidebar__details__details">
+                <div class="sidebar__details__detail">
                     <p>Cloudy</p>
-                    <p id="cloudy">86%</p>
+                    <p id="cloudy"></p>
                 </div>
-                <div class="sidebar__details__details">
+                <div class="sidebar__details__detail">
                     <p>Humidity</p>
-                    <p id="humidity">86%</p>
+                    <p id="humidity"></p>
                 </div>
-                <div class="sidebar__details__details">
+                <div class="sidebar__details__detail">
                     <p>Wind</p>
-                    <p id="wind-speed">86%</p>
+                    <p id="wind-speed"></p>
                 </div>
             </div>
         </div>
@@ -73,4 +79,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
